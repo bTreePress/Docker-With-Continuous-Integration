@@ -1,0 +1,15 @@
+{
+  "name": "How-To-Use-Docker-With-Continous-Integration-To-Build-A-DevOps-Automated-Workflow",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Demo for ocker CI course",
+  "main": "app.js",
+  "author": "Luke Angel",
+  "dependencies": {
+    "express": "3.2.4",
+    "hbs": "^4.0.1",
+    "jade": "1.11.0",
+    "mocha": "1.20.1",
+    "supertest": "1.1.0"
+  }
+}
