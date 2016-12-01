@@ -1,6 +1,4 @@
-# The deployment section should be excluded until
-# it is explicitly included in module 5
-
+##### Chapter 5 #####
 #deployment:
 #  dockerhub:
 #    branch: master
@@ -9,4 +7,4 @@
 
 test:
   override:    
-    - mocha
+    - mocha 
