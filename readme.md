@@ -1,4 +1,4 @@
-# Test app for bTreePress course
+# Test app for bTreePress course on Continous Integration with Docker
 This is a quick  node.js appfor the purposes of demonstrating a basic CI/CD workflow with Docker Hub for How To Use Docker With Continous Integration To Build A DevOps Automated Workflow .
 This Project Is Included In the Exercise Files  
 and @  
