@@ -7,5 +7,5 @@ deployment:
       - $DOCKER_HUB_TRIGGER
 
 test:
-  override:    f`
+  override:   
     - mocha 
