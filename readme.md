@@ -5,7 +5,7 @@ and @
 **GitHub:**   
 https://github.com/bTreePress/Docker-With-Continous-Integration
 
-## Instructions for use
+## Instructions  
 
 download or pull to your local computer
 https://github.com/bTreePress/Docker-With-Continous-Integration.git
