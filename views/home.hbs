@@ -13,9 +13,28 @@
 
 	<!-- Compiled and minified JavaScript -->
 
+<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+	var ampm = (h >= 12) ? "PM" : "AM";
 
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s + " " + ampm;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
 </head>
-<body>
+
+<body  onload="startTime()">
 
 <!-- nav -->
 
@@ -41,7 +60,9 @@
 <!-- cards view -->
 <div class="container">
 	<div class="section">
-
+		<div class="row">
+			<div id="txt" style="font-size: xx-large !important;"></div>
+		</div>
 		<div class="row">
 			<h3>
 				<a name="#breedsWithA">A</a></h3>
