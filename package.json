@@ -4,6 +4,10 @@
   "version": "0.0.1",
   "description": "Demo for ocker CI course",
   "main": "app.js",
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "package": "node app.js"
+  },
   "author": "Luke Angel",
   "dependencies": {
     "express": "3.2.4",
